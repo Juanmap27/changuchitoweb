@@ -31,9 +31,9 @@ class ClasicosPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 leading: Image.asset('assets/images/changu_clasico.png'),
-                title: Text('Changuchito Clásico ${index + 1}'),
+                title: Text('Sanguchito Clásico ${index + 1}'),
                 subtitle: Text(
-                  'Descripción del Changuchito clásico ${index + 1}',
+                  'Descripción del Sanguchito clásico ${index + 1}',
                 ),
                 trailing: Text('\$${(index + 1) * 10}'),
               ),
